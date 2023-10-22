@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='dist/css/output.css')}}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Main Menu</title>
   </head>
-  <body>
-    <h1>Resumation</h1>
+  <body class="min-h-screen place-content-center">
+    <div
+      class="bg-orange-300 w-10/12 h-24 rounded-r-full shadow-2x1 flex items-center"
+    >
+      <h1 class="text-5xl text-white text-left">Resumation</h1>
+    </div>
+
+    <div class="grid">
+      <h2 class="text-2xl">Settings:</h2>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
   </body>
 </html>

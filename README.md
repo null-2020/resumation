@@ -6,4 +6,4 @@ As of right now, this program would only work on MyWorkDay job application platf
 
 ## Instructions
 
-Since the program can read LaTeX resumes, make sure to add it to lib/config/. Also ensure that you add and fill in the correct details in the config.json file or via the web application.
+Since the program can read LaTeX resumes, make sure to add the resume in .pdf form and it's latex code to the lib/config/ folder. Also ensure that you add and fill in the correct details in the config.json file or via the web application.

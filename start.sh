@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "Starting app"
-flask --app app run
+flask --app app run --debug
